@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+nav {
+  font-family: "AmaticSC-Regular";
+  font-size: 30px;
+  text-decoration: none;
+}
+.logo {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.tituloprincipal {
+  font-size: 50px;
+}
+
+.imagenprincipal {
+  border-radius: 15%;
+}
+
+.presentacionprincipal {
+  font-family: "Satisfy-Regular";
+  font-size: 20px;
+  text-align: center;
+}
+
+.propiofooter {
+  padding: 0;
+  margin: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-family: "AmaticSC-Regular";
+}
+
+.itemfooter {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+@font-face {
+  font-family: "Satisfy-Regular";
+  src: url(./font/Satisfy-Regular.ttf);
+}
+
+@font-face {
+  font-family: "AmaticSC-Regular";
+  src: url(./font/AmaticSC-Regular.ttf);
+}
