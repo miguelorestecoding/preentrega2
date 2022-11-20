@@ -13,11 +13,20 @@ nav {
   font-size: 30px;
   text-decoration: none;
 }
+
+nav.hover {
+  font-size: 50px;
+  transition: 2s;
+}
 .logo {
   width: 200px;
   border-radius: 50%;
 }
 
+.logo:hover {
+  transform: rotate(360deg);
+  transition: 5s;
+}
 .tituloprincipal {
   font-size: 50px;
 }
