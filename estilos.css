@@ -40,7 +40,13 @@ nav {
   border-radius: 15%;
 }
 
-.imagenquienessomos {
+.imagenquienesomos {
+  width: 100%;
+  height: auto;
+  border-radius: 15%;
+}
+
+.imagenproductos {
   width: 100%;
   height: auto;
   border-radius: 15%;
@@ -65,6 +71,18 @@ nav {
   text-decoration: none;
   font-size: 30px;
   color: black;
+}
+
+.quienesomos {
+  font-family: "Satisfy-Regular";
+  font-size: 20px;
+  text-align: left;
+}
+
+.productos {
+  font-family: "Satisfy-Regular";
+  font-size: 20px;
+  text-align: left;
 }
 
 @font-face {
