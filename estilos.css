@@ -73,6 +73,10 @@ nav {
   color: black;
 }
 
+.itemfooter:hover {
+  color: black;
+}
+
 .quienesomos {
   font-family: "Satisfy-Regular";
   font-size: 20px;
@@ -111,6 +115,11 @@ nav {
   .textoproductos {
     margin-top: 0px;
   }
+}
+
+.footertransform:hover {
+  transform: scale(1.5, 1);
+  transition: 2s;
 }
 
 @font-face {
