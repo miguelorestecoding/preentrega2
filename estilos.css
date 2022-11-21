@@ -76,13 +76,41 @@ nav {
 .quienesomos {
   font-family: "Satisfy-Regular";
   font-size: 20px;
-  text-align: left;
+  text-align: center;
+}
+
+.textoquienesomos {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .quienesomos {
+    text-align: left;
+  }
+
+  .textoquienesomos {
+    margin-top: 0px;
+  }
 }
 
 .productos {
   font-family: "Satisfy-Regular";
   font-size: 20px;
-  text-align: left;
+  text-align: center;
+}
+
+.textoproductos {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .productos {
+    text-align: left;
+  }
+
+  .textoproductos {
+    margin-top: 0px;
+  }
 }
 
 @font-face {
